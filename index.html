@@ -16,26 +16,25 @@ body{
     font-family:Arial;
 }
 
-.login-box{
-    background:white;
-    padding:30px;
+.box{
+    background:#fff;
+    padding:25px;
     border-radius:12px;
     width:320px;
     text-align:center;
     box-shadow:0 0 15px rgba(0,0,0,0.2);
 }
 
-.logo{
-    width:110px;
+.box img{
+    width:120px;
     height:auto;
-    margin-bottom:10px;
+    display:block;
+    margin:0 auto 10px;
 }
 
-.title{
-    font-size:22px;
-    font-weight:bold;
+h2{
+    margin:10px 0 15px;
     color:#007bff;
-    margin-bottom:15px;
 }
 
 input{
@@ -64,13 +63,12 @@ button:hover{
 
 <body>
 
-<div class="login-box">
+<div class="box">
 
-    <!-- COLLEGE LOGO -->
-    <img src="logo.png" class="logo" alt="APEC Logo">
+    <!-- 🔴 IMPORTANT: change filename correctly -->
+    <img src="logo.png" alt="APEC Logo">
 
-    <!-- COLLEGE NAME -->
-    <div class="title">APEC COLLEGE</div>
+    <h2>APEC COLLEGE</h2>
 
     <input type="text" placeholder="Username">
     <input type="password" placeholder="Password">
